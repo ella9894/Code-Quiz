@@ -10,8 +10,36 @@
 //WHEN the game is over
 //THEN I can save my initials and score
 //document.getElelemtnbyID("quiz-score");
+var questions = [
+    {
+        quest: "Which shows the proper way to call the taskEdit function?",
+        choices: ["taskEdit[]", "taskEdit();", "taskEdit()", "taskEdit[];"],
+        answer: "taskEdit();"
+    },
+    {
+        quest: "For var candies=[“skittles”, “snickers”, “twix”, “kitkat”];, what will console.log(candies[2]); display?",
+        choices: ["skittles", "snickers", "kitkat", "twix"],
+        answer: "twix"
+    },
+    {
+        quest: "What does “#page-content” refer to in the variable declaration var pageContentEl = document.querySelector('#page-content'); ?",
+        choices: ["A class in the CSS file called page-content ","A class in the HTML called page-content","An id in the CSS file called page-content","An id in the HTML called page-content"],
+        answer: "An id in the HTML called page-content"
+    },
+    {
+        quest: "What happens if you don't put a 'break' after each case in a switchcase?",
+        choices: ["The script will only run the case that meets the criterion", "The script will only run the case that meets the criterion", "The script will run each case, regardless of if it meets the criterion", "The script will only run the default"],
+        answer: " The script will run each case, regardless of if it meets the criterion"
+    },
+    {
+        quest: "What does if (!taskNameInput || !taskTypeInput) mean?",
+        choices: ["if taskNameInput or taskTypeInput is empty/null","if taskNameInput or taskTypeInput is empty/null","if taskNameInput has input but taskTypeInput is empty/null","if taskNameInput is empty but taskTypeInput has input"],
+        answer:"if taskNameInput or taskTypeInput is empty/null"
+    }
 
-var score = 0;
+];
+var Question = 0;
+var time=quest
 
 var butnEl = document.querySelector("#start");
 var Questions = document.querySelector("#");
