@@ -10,14 +10,31 @@
 <body>
     <header>
         <a href="highscore.html" id="high-btn" class="high">View High Scores</a>
-        <p>Time:</p>
+        <p class="timer">Time: <span id="time">0</span></p>
     </header>
      <main class="container">
-         <div id="home" class="flex-col flex-cen"></div>
-         <h1>Javascript Quiz Challenge</h1>
-        <br />
-         <p>Try to answer the following code-related questions in 60 sec! Incorrect answers will penalize your score and deduct 10 sec from your time!</p> 
-        <a href="quiz.html" class="button" id="start">Start Quiz</a>
+        <div id="home" class="home-screen">
+            <h1>Javascript Quiz Challenge</h1>
+            <br>
+            <p>Try to answer the following code-related questions in 60 sec! 
+                Incorrect answers will penalize your score and deduct 10 sec 
+                from your time! Good luck! </p> 
+            <br>
+            <button id="start">Start Quiz</button>
+        </div>
+        <div id="question" class="hidden">
+            <h2 id="q-title"></h2>
+            <div id="options" class="options"></div>
+        </div>
+        <div id="quiz-end" class="hidden">
+            <h2>Done!</h2>
+            <p>Your final score is <span id="score"></span>!</p>
+            <p>Type your initials: <input type="text" id="initials"/>
+                <button id="submit">Submit</button>
+            </p>
+        </div>
+        <div id="comments" class="comments hidden"></div>
+         <!-- <a href="quiz.html" class="button" id="start">Start Quiz</a> -->
      </main> 
    <script src="./assets/js/quiz.js"></script> 
 </body>
