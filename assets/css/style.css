@@ -15,6 +15,42 @@ a:hover{
     color: #6E77CF;
 }
 
+.high {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    font-size: 28px;
+}
+
+.timer {
+    position: absolute;
+    top: 13px;
+    right: 14px;
+    font-size: 28px;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto 0 auto;
+    padding: 20px;
+    font-size: 125%;
+}
+
+.home-screen{
+    text-align: center;
+}
+
+.home-screen h1 {
+    font-size: 300%;
+ }
+
+.home-screen p {
+    font-size: 150%;
+ }
+
 button {
     font-family: 'comic sans ms';
     margin: 7px;
@@ -35,12 +71,25 @@ button:hover {
     background: #821FC4;
   }
 
+.hidden{
+    display:none;
+}
+
 .options {
     display: block;
 }  
 
 input {
     font-size: 100%;
+}
+
+.comments {
+    font-style: normal;
+    font-size: x-large;
+    padding-top: 10px;
+    color: lightslategray;
+    border-top: 3px solid #707177;
+    margin-top: 25px;
 }
 
 ol {
@@ -58,51 +107,16 @@ li:nth-child(odd){
     background-color: rgb(215, 232, 247);
 } 
 
-.container{
-    width: 100vw;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
-    margin: 100px auto 0 auto;
-    padding: 20px;
-    font-size: 125%;
-}
 
-.hidden{
-    display:none;
-}
 
-.home-screen{
-    text-align: center;
-}
-.home-screen h1 {
-    font-size: 300%;
- }
 
-.home-screen p {
-    font-size: 150%;
- }
-.high {
-    position: absolute;
-    top: 12px;
-    left: 12px;
-    font-size: 28px;
-}
 
-.comment {
-    font-style: normal;
-    font-size: x-large;
-    padding-top: 10px;
-    color: lightslategray;
-    border-top: 3px solid #707177;
-    margin-top: 25px;
-}
 
-.timer {
-    position: absolute;
-    top: 13px;
-    right: 14px;
-    font-size: 28px;
-}
+
+
+
+
+
+
 
  
