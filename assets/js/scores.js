@@ -18,6 +18,6 @@ function clearScores() {
     window.location.reload();
 }
 
-document.getElementById("clear").onclick = clearScores;
+document.getElementById("remove").onclick = clearScores;
 
 displayScores();
