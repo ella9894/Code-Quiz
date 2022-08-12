@@ -66,8 +66,6 @@ function beginQuiz() {
 
   timer = setInterval(clock, 1000);
 
-  //timer.textContent = time;
-
   getQuestion();
 }
 
@@ -105,10 +103,10 @@ function AnswerValid() {
     comments.textContent = "Wrong!";
   }
 
-  comments.setAttribute("class", "feedback");
+  comments.setAttribute("class", "comments");
   setTimeout(function () {
     comments.setAttribute("class", "comments hidden");
-  }, 1500);
+  }, 1000);
 
   currentQuestion++;
 

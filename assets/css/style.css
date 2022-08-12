@@ -3,16 +3,15 @@
     margin: 0;
     padding:0;
     font-family: Arial, Helvetica, sans-serif;
-    
 }
 
 a {
-    color:#821FC4;
+    color:#8529c2;
     transition: color .2s;
 }
 
 a:hover{
-    color: #6E77CF;
+    color: #202123;
 }
 
 .high {
@@ -45,11 +44,11 @@ a:hover{
 
 .home-screen h1 {
     font-size: 300%;
- }
+}
 
 .home-screen p {
     font-size: 150%;
- }
+}
 
 button {
     font-family: 'comic sans ms';
@@ -64,12 +63,12 @@ button {
     background-color: #580491;
     transition: background-color .15s;
     display: inline-block;
-  }
+}
 
 button:hover {
     color: #000000 !important;
     background: #821FC4;
-  }
+}
 
 .hidden{
     display:none;
@@ -84,17 +83,22 @@ input {
 }
 
 .comments {
-    font-style: normal;
-    font-size: x-large;
+    font-style: italic;
+    font:bold;
+    font-size: xx-large;
     padding-top: 10px;
-    color: lightslategray;
-    border-top: 3px solid #707177;
+    color: rgb(22, 22, 23);
+    border-top: 3px solid #707177 ;
     margin-top: 25px;
 }
 
 .h-score{
-    
+    margin-top: 15px;
+    padding-top: 0;
+    text-align: center;
+    margin-bottom: 10px;
 }
+
 ol {
     padding-left: 0.5px;
     max-height: 390px;
@@ -103,12 +107,9 @@ ol {
 
 li {
     padding: 6px;
-    list-style: decimal inside none;
- }
+    background-color: none;
+}
 
-li:nth-child(odd){
-    background-color: rgb(215, 232, 247);
-} 
 
 
 
